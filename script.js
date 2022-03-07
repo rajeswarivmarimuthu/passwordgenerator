@@ -7,6 +7,8 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
   if (password){
     passwordText.value = password;
+  } else {
+    passwordText.value = '';
   }
 }
 
